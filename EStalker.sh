@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-##setup command=wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EStalker/EStalker.sh -O - | /bin/sh
+##setup command=wget https://github.com/tarekzoka/raw/refs/heads/main/EStalker/EStalker.sh -O - | /bin/sh
 #
 echo "==============================================="
 echo "       Download And Install Plugin estalker     "
@@ -51,7 +51,7 @@ set +e
 
 echo ""
 echo "************************************************"
-echo "   UPLOADED BY  >>>>   EMIL_NABIL              "
+echo "   UPLOADED BY  >>>>   TAREK_HANFY              "
 echo "************************************************"
 sleep 4
 
