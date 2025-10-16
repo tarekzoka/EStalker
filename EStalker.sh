@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-##setup command=wget https://github.com/tarekzoka/raw/refs/heads/main/EStalker/EStalker.sh -O - | /bin/sh
+##setup command=wget https://raw.githubusercontent.com/tarekzoka/EStalker/main/EStalker.sh-O - | /bin/sh
 #
 echo "==============================================="
 echo "       Download And Install Plugin estalker     "
@@ -10,8 +10,7 @@ TEMPATH="/tmp"
 OPKGINSTALL="opkg install --force-overwrite"
 MY_IPK="enigma2-plugin-extensions-estalker_all.ipk"
 MY_DEB="enigma2-plugin-extensions-estalker_all.deb"
-MY_URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EStalker"
-
+MY_URL="https://raw.githubusercontent.com/tarekzoka/EStalker/main" 
 # Detect system type
 if [ -f /etc/apt/apt.conf ]; then
     STATUS='/var/lib/dpkg/status'
